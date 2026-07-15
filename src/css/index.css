@@ -1,0 +1,29 @@
+:root{
+    --olive:  #606C38;
+    --dark-olive: #283618;
+    --light-olive: #CBC287;
+    --bg: #FEFAE0;
+    --light-bg: #FFFDF0;
+    --caramel: #DDA15E;
+    --dark-caramel: #BC6C25;
+    --black: #000000;
+    --white: #FFFFFF;
+    --gradient: linear-gradient( var(--olive) 0%, var(--dark-olive) 100%);
+
+}
+
+ *,
+ *::before,
+ *::after {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+
+ html,
+ body {
+     height: 100%;
+     width: auto;
+     background: var(--bg);
+     
+ }
